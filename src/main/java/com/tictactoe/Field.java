@@ -41,9 +41,9 @@ public class Field {
 
     public Sign checkWin() {
         List<List<Integer>> winPossibilities = List.of(
+                List.of(6, 7, 8),
                 List.of(0, 1, 2),
                 List.of(3, 4, 5),
-                List.of(6, 7, 8),
                 List.of(0, 3, 6),
                 List.of(1, 4, 7),
                 List.of(2, 5, 8),
